@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Button Link</title>
+    <style>
+      #button-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+      button {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        width: 200px; /* set width to 200 pixels */
+      }
+    </style>
+  </head>
+  <body>
+    <div id="button-container">
+      <input type="text" id="password-input" placeholder="Enter password">
+      <button onclick="goToURL('http://www.example.com')">Click me</button>
+      <button onclick="goToURL('http://www.google.com')">Google</button>
+      <button onclick="goToURL('http://www.yahoo.com')">Yahoo</button>
+      <button onclick="goToURL('http://www.microsoft.com')">Microsoft</button>
+      <button onclick="goToURL('http://www.amazon.com')">Amazon</button>
+    </div>
+
+    <script>
+      function goToURL(url) {
+        var passwordInput = document.getElementById("password-input");
+        var password = passwordInput.value;
+        if (password === "expectedPassword") {
+          window.location.href = url;
+        } else {
+          alert("Incorrect password. Please try again.");
+        }
+      }
+    </script>
+  </body>
+</html>
