@@ -1,191 +1,33 @@
-
 <!DOCTYPE html>
-<html lang="ko" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="ko">
+
 <head>
-    <title></title>
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta http-equiv="content-Type" content="text/html; charset=utf-8">
-    <meta name="Keywords" content="성근소프트 장비관리" />
-    <meta name="Description" content="[성근소프트장비관리] 메인 - 손쉬운 장비관리를 위한 Helper 사이트입니다. ">
-
-    <script type="text/javascript"> var ktMenuCd = "ECA000"; </script>
-	<script type="text/javascript" src="https://m.kt.com/js/common/global/mKTGlobal.js"></script>
-
-	<link rel="shortcut icon" type="image/x-icon" href="/images/common/favicon/kt.ico">
-	<link rel="stylesheet" type="text/css" href="/css/mobile/vendor/kt.css">
-	<link rel="stylesheet" type="text/css" href="/css/pc/membership.css">
-	<style>
-	/* mKTGlobal_KR.js 없으면 폰트적용안됨, 적용하면 body top설정되어있어 다음과 같이 재설정 필요! */
-	body {
-	    padding-top: 0px !important;
-	}
-
-	/* title div */
-	.div_title {
-              height:30vw;
-			  padding-top:0vw;
-			  padding-left:0vw;
-			  position: relative;
-	}
-
-	/* title span 글귀 */
-	span.titleA { text-align: center;
-				font-size:5vw; 
-				font-family: "KTB", "Malgun Gothic", "맑은 고딕", "MG", sans-serif;
-				color:#000;
-				position:absolute;
-				top:7vw;
-				left:12vw;
-	}
-	/* title span 글귀 */
-	span.titleA1 { text-align: center;
-				font-size:5vw; 
-				font-family: "KTB", "Malgun Gothic", "맑은 고딕", "MG", sans-serif;
-				color:#000;
-				position:absolute;
-				top:15vw;
-				left:12vw;
-	}
-
-	/* 표 전체 div */
-	.div_style {width:100vw;
-              height:100vw;
-			  padding-top:5vw;
-			  padding-left:2.5vw;
-			  position: relative;
-	}
-
-	/* 표 안의 박스 div */
-	.div_box {width:29vw;
-              height:29vw;
-			  padding-top:0vw;
-			  padding-left:0vw;
-			  border:0.1vw solid #000;
-			  position: absolute;
-	}
-
-	.div_style ul {
-    	clear: left;
-    	list-style-type: none;
-    	margin: 0vw;
-    	padding: 0vw;
-	}
-	.div_style ul.header li {
-    	border-top: 0.01vw solid blue;
-    	border-left: 0.01vw solid blue;
-		float:left;
-    	padding-left: 1vw;
-    	padding-top: 1vw;
-    	min-height: 15vw;
-	}
-	.div_style ul.body li {
-    	float: left;
-    	padding-left: 0vw;
-    	padding-top: 0vw;
-    	min-width: 32.4vw;
-    	min-height: 32.4vw;
-	}
-
-	/* 표 안의 박스 div 의 글귀1*/
-	span.sentenceA {
-    	color: #000;
-    	text-align: center;
-    	font-family: "KTB", "Malgun Gothic", "맑은 고딕", "MG", sans-serif;
-    	letter-spacing: 0vw;
-    	font-size: 4vw;
-    	position: absolute;
-    	left: 1vw;
-    	top: 1vw;
-	}
-
-	/* 표 안의 박스 div 의 글귀2*/
-	span.sentenceA1 {
-    	color: #000;
-    	text-align: center;
-    	font-family: "KTB", "Malgun Gothic", "맑은 고딕", "MG", sans-serif;
-    	letter-spacing: 0vw;
-    	font-size: 2.9vw;
-    	position: absolute;
-    	top: 1.4vw;
-    	left: 3.7vw;
-	}
-
-	/* 표 안의 박스 div 의 글귀3*/
-	span.sentenceA2 {
-    	color: #000;
-    	text-align: center;
-    	font-family: "KTL", "Malgun Gothic", "맑은 고딕", "MG", sans-serif;
-    	letter-spacing: 0vw;
-    	font-size: 2.3vw;
-    	position: absolute;
-    	top: 5vw;
-    	left: 3.7vw;
-	}
-
-	/* 표 안의 박스 div 의 이미지*/
-	span.sentenceI {
-    	color: #000;
-    	text-align: center;
-    	font-family: "KTL", "Malgun Gothic", "맑은 고딕", "MG", sans-serif;
-    	letter-spacing: 0vw;
-    	font-size: 2vw;
-    	position: absolute;
-    	top: 5vw;
-    	left: 3.7vw;
-	}
-	</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
+    <div class="frem">
+        <div class="menu1 borders" onclick="checkPassword('http://211.254.72.240/exservice/ex_guide.pdf')"></div>
+        <div class="menu2 borders" onclick="checkPassword('http://211.254.72.240/mpva/qrcode_movie.mp4')"></div>
+        <div class="menu3 borders" onclick="checkPassword('https://docs.google.com/forms/d/e/1FAIpQLSf5iXWH-EAqNoBFHLkzCAwgzQ6b7y94edCAkcqAaTqQpij0wA/viewform?usp=sf_link')">
+        <div class="menu4 borders" onclick="checkPassword('http://211.254.72.240/mpva/qrcode_movie.mp4')"></div>
+    </div>
 
-<div class="div_title">
-	<span class="titleA">성근소프트</span>
-	<span class="titleA1">장비관련 도우미입니다.</span>
-	<img src="장비.jpg" style="width:22vw;position:absolute;top:0vw;left:82vw;"/>
-</div>
+    <script>
+        function checkPassword(link) {
+            var password = "skjang";
+            var input = prompt("접속비밀번호를 입력하세요.");
+            if (input === password) {
+                window.location.href = link;
+            } else {
+                alert("접속비밀번호가 올바르지 않습니다.");
+            }
+        }
+    </script>
+    </body>
 
-<div class="div_style">
-	<ul class="body">
-		<li class="">
-			<div class="div_box" onclick="checkPassword('http://211.254.72.240/exservice/ex_guide.pdf')">
-				<span class="sentenceA">1</span>
-			    <span class="sentenceA1">장비 메뉴얼</span>
-			    <span class="sentenceA2">> 메뉴얼 PDF</span>
-				<img src="메뉴얼.webp" style="width:13vw;position:absolute;top:8vw;left:8vw;"/>
-			</div>
-		</li>
-		<li class="">
-			<!--<div class="div_box" onclick="location.href='https://kt.com/8zpm'">--> <!-- TV_self-measurement.mp4 -->
-			<div class="div_box" onclick="checkPassword('http://211.254.72.240/mpva/qrcode_movie.mp4')">
-				<span class="sentenceA">2</span>
-			    <span class="sentenceA1">장비 사용법</span>
-			    <span class="sentenceA2">> AI 장비설명영상</span>
-				<img src="동영상.jpg" style="width:13vw;position:absolute;top:8vw;left:8vw;"/>
-			</div>
-		</li>
-		<li class="">
-			<!--<div class="div_box" onclick="location.href='https://ermsweb.kt.com/pc/faq/smsVideoView.do?fileName=DT_42.mp4'">-->
-			<div class="div_box" onclick="checkPassword('https://docs.google.com/forms/d/e/1FAIpQLSf5iXWH-EAqNoBFHLkzCAwgzQ6b7y94edCAkcqAaTqQpij0wA/viewform?usp=sf_link')">
-				<span class="sentenceA">3</span>
-			    <span class="sentenceA1">장애 접수</span>
-			    <span class="sentenceA2">> 장애 접수신청</span>
-				<img src="신청서.jpg" style="width:13vw;position:absolute;top:8vw;left:8vw;"/>
-			</div>
-		</li>
-	</ul>										
-</div>
-
-<script>
-	function checkPassword(link) {
-		var password = "skjang";
-		var input = prompt("접속비밀번호를 입력하세요.");
-		if (input === password) {
-			window.location.href = link;
-		} else {
-			alert("접속비밀번호가 올바르지 않습니다.");
-		}
-	}
-</script>
-
-</body>
 </html>
