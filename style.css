@@ -20,41 +20,41 @@ body {
 }
 
 .frem .menu1 {
-    width: 15rem;
-    height: 15rem;
+    width: 14rem;
+    height: 14rem;
     background: #fbfbfc url("./menual_ico.png");
     background-position: center;
-    background-size: 15rem;
+    background-size: 14rem;
     background-repeat: no-repeat;
     border-radius: 23px;
     position: relative;
 }
 .frem .menu2 {
-    width: 15rem;
-    height: 15rem;
+    width: 14rem;
+    height: 14rem;
     background: #fbfbfc url("./video_ico.png");
     background-position: center;
-    background-size: 15rem;
+    background-size: 14rem;
     background-repeat: no-repeat;
     border-radius: 23px;
     position: relative;
 }
 .frem .menu3 {
-    width: 15rem;
-    height: 15rem;
+    width: 14rem;
+    height: 14rem;
     background: #fdfeff url("./solution_ico.png");
     background-position: center;
-    background-size: 15rem;
+    background-size: 14rem;
     background-repeat: no-repeat;
     border-radius: 23px;
     position: relative;
 }
 .frem .menu4 {
-    width: 15rem;
-    height: 15rem;
+    width: 14rem;
+    height: 14rem;
     background: #fbfbfc url("./ai_ico.png");
     background-position: center;
-    background-size: 15rem;
+    background-size: 14rem;
     background-repeat: no-repeat;
     border-radius: 23px;
     position: relative;
